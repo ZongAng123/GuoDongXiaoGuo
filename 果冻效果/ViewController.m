@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "CusLayerView.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    CusLayerView * cus = [[CusLayerView alloc]initWithFrame:self.view.bounds];
+    cus.backgroundColor = [UIColor brownColor];
+    [self.view addSubview:cus];
 }
 
 - (void)didReceiveMemoryWarning {

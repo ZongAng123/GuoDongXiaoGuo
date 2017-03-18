@@ -15,6 +15,7 @@
 		74D4145D1E7CB91E00AA2D28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74D4145B1E7CB91E00AA2D28 /* LaunchScreen.storyboard */; };
 		74D414681E7CB91F00AA2D28 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D414671E7CB91F00AA2D28 /* ____Tests.m */; };
 		74D414731E7CB91F00AA2D28 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D414721E7CB91F00AA2D28 /* ____UITests.m */; };
+		74D414821E7CB96800AA2D28 /* CusLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D414811E7CB96800AA2D28 /* CusLayerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		74D4146E1E7CB91F00AA2D28 /* 果冻效果UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "果冻效果UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74D414721E7CB91F00AA2D28 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		74D414741E7CB91F00AA2D28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74D414801E7CB96800AA2D28 /* CusLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CusLayerView.h; sourceTree = "<group>"; };
+		74D414811E7CB96800AA2D28 /* CusLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CusLayerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				74D414511E7CB91E00AA2D28 /* AppDelegate.m */,
 				74D414531E7CB91E00AA2D28 /* ViewController.h */,
 				74D414541E7CB91E00AA2D28 /* ViewController.m */,
+				74D414801E7CB96800AA2D28 /* CusLayerView.h */,
+				74D414811E7CB96800AA2D28 /* CusLayerView.m */,
 				74D414561E7CB91E00AA2D28 /* Main.storyboard */,
 				74D414591E7CB91E00AA2D28 /* Assets.xcassets */,
 				74D4145B1E7CB91E00AA2D28 /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74D414821E7CB96800AA2D28 /* CusLayerView.m in Sources */,
 				74D414551E7CB91E00AA2D28 /* ViewController.m in Sources */,
 				74D414521E7CB91E00AA2D28 /* AppDelegate.m in Sources */,
 				74D4144F1E7CB91E00AA2D28 /* main.m in Sources */,
